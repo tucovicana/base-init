@@ -1,18 +1,13 @@
-Dakle, ovo je nasa web aplikacija
-=================================
-
-Do sada smo
-___________
-* kreirali nasu aplikaciju: `rails new _ime_aplikacije_`, a zatim i `bundle install`
-* pokrenuli git: `git init`
-
-* napravili smo nalog na [Githubu](https://github.com/) i povezali repozitorijume
--  `git config --list`
--  `git config --global user.name "your-name"`
--  `git config --global user.email "your-email"`
--  `git remote add origin https://github.com/vas_username/odgovarajuce_ime_aplikacije.git`
-- `git add .` -> `git commit -m "ove napisemo smislenu poruku o tome sta smo mi to uradili poslednje"`
- -> `git push origin master`
-___________________________________________________________________________________________
-* Ovo je nas README.md. Tu cemo beleziti opis nase aplikacije, nesto sto mi smatramo znacajnim.
-  Ovde cete kroz "commitove" s' vremena na vreme moci da vidite neke korisne naredbe, beleske.
+- Nasu aplikaciju pokrecemo sa:
+`rails server`
+- Zatim u browseru odemo na http://localhost:3000 ili http://0.0.0.0:3000
+- da bismo bili sigurni koja je adresa mozemo i sledecom naredbom pokrenuti server
+`rails server -b localhost`
+- I to sad izgleda tako. Nas sledeci korak ce biti da promenimo pocetnu stranicu.
+- RoR - nas Open source alat za gradjenje Interneta (MIT License), npravljen u Ruby-ju (programski jezik)
+- Daje nam i back-end i front-end prezentaciju web stranica, kao i sve izmedju
+- 2004. i od tada brzo evoluira
+- Rails je Ruby gem (gem je zapakovana Ruby aplikacija/biblioteka), nesto kao jedna Lego kockica
+- Rails je izgradjen po semi u arhitekturi softvera koja se zove MVC (Model-View-Controller)
+- `ls app/controllers/`  sa `ls` listamo direktorijum koji navedemo
+- otvaramo file koji se zove application_controller.rb
